@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <h1>THis is Home Pages</h1>
       {/* <p>This ID use "{process.env.ID}" for login</p> */}
-      {process.env.ID && <p>This ID use "{process.env.ID}" for login</p>}
+      {process.env.ID}
     </div>
   );
 }
