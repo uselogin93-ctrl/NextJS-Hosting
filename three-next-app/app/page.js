@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div>
       <h1>THis is Home Pages</h1>
+      <p>This ID use "{process.env.ID}" for login</p>
     </div>
   );
 }
