@@ -7,8 +7,6 @@ export default function Home() {
     <div>
       <h1>THis is Home Pages</h1>
       <p>This ID use "{process.env.ID}" for login</p>
-      {process.env.ID}
-      is that is any changes happened
     </div>
   );
 }
