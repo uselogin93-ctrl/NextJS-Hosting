@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <h1>THis is Home Pages</h1>
       <p>This ID use "{process.env.NEXT_PUBLIC_ID}" for login</p>
-      <p>This ID use "{process.env.NEXT_PUBLIC_SECRET}" for login</p>
+      <p>This Password use "{process.env.NEXT_PUBLIC_SECRET}" for login</p>
     </div>
   );
 }
