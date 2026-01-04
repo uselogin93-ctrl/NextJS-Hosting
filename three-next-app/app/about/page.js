@@ -11,7 +11,7 @@ const about = () => {
                     .container {
                         width: 100vw;
                         height: 100vh;
-                        background-color: black;
+                        background-color: #0aa4ab;
                         color: white;
                         display: flex;
                         justify-content: center;
